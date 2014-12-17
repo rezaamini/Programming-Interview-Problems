@@ -1,3 +1,8 @@
+/*
+ 
+ Implement circular right shift of size "shift" for an array of size n. 
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -5,8 +10,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Implement circular right shift of size "shift" for an array of size n. 
- * 
+ *
  * @author Reza Amini
  */
 public class CircuarRightShift
