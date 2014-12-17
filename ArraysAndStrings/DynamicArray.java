@@ -1,10 +1,13 @@
-
+/*
+ 
+ Implement a dynamic size array.
+  
+*/
 package ArraysAndStrings;
 
 import java.util.Arrays;
 
 /**
- * Implement a dynamic size array.
  * 
  * @author Reza Amini
  */
