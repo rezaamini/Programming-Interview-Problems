@@ -70,6 +70,7 @@ public class MergeOverlapingTimes
     }
 }
 
+// This class represents a pair of times (start, end)
 class Pair
 {
     int start;
