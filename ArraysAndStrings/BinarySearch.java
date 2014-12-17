@@ -1,9 +1,14 @@
+/*
+ 
+ In a sorted array of distinct integers, find the index in which a[i] = i.
+ 
+*/
+
 package ArraysAndStrings;
 
 import java.util.Scanner;
 
 /**
- * In a sorted array of distinct integers, find the index in which a[i] = i.
  * 
  * @author Reza Amini
  */
