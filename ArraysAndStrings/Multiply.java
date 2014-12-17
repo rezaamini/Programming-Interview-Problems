@@ -1,3 +1,8 @@
+/*
+ 
+ Multiply two large numbers given in two large arrays of positive integers.
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -5,7 +10,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Multiply two large numbers given in two large arrays of positive integers.
  * 
  * @author Reza Amini
  */
