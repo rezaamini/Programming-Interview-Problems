@@ -1,10 +1,13 @@
 /*
-    Implement the fill function of a paint program. Imagine a two dimensional 
-    array representing the screen. The element at the i-th row and j-th column 
-    is represented by s[i][j] and is set to true if the corresponding cell on 
-    the screen has a color. Given a cell, s[i][j], color the area that bounds 
-    that point.
- */
+
+Implement the fill function of a paint program. Imagine a two dimensional 
+array representing the screen. The element at the i-th row and j-th column
+is represented by s[i][j] and is set to true if the corresponding cell on 
+the screen has a color. Given a cell, s[i][j], color the area that bounds
+that point.
+
+*/
+
 package ArraysAndStrings;
 
 import java.util.ArrayDeque;
@@ -12,12 +15,11 @@ import java.util.Deque;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class Paint
 {
-    // Use recursion
-    // A single point is seen multiple times
+    // Use recursion. Disadvantage: a single point is seen multiple times
     // Time complexity: O(N1.N2)
     // Space complexity: O(1) but we have the burden of recursion stack
     public void paint_Recursive(boolean[][] screen, int x, int y)
@@ -38,7 +40,7 @@ public class Paint
         paint_Recursive(screen, x - 1, y);
     }
     
-    // Use a queue and add a point to the queue if it is not painted yet
+    // Use a queue and add a point to the queue if it is not painted yet (similar to BFS)
     // Time complexity: O(N1.N2)
     // Space complexity: O(N1.N2)
     public void paint_NonRecursive(boolean[][] screen, int x, int y)
@@ -79,6 +81,7 @@ public class Paint
     }
 }
 
+// This class represents an array element with a row (x) and a column (y)
 class ArrayElement
 {
     int x;
