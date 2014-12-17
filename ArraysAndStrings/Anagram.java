@@ -1,5 +1,7 @@
-/**
- * Get two strings and find out if they are anagrams.
+/*
+
+ Get two strings and find out if they are anagrams.
+  
  */
 
 package ArraysAndStrings;
