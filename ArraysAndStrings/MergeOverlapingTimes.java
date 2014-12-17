@@ -1,8 +1,10 @@
 /*
-    Imagine you have an array of time intervals:
-    [ (1,5), (3,7), (8, 12), (11, 15), (14, 19), (30, 34) ]
-    Write an algorithm that merges the overlapping intervals without using any 
-    extra memory: [ (1,7), (8, 19), (30, 34) ]
+    
+ Imagine you have an array of time intervals:
+ [ (1,5), (3,7), (8, 12), (11, 15), (14, 19), (30, 34) ]
+ Write an algorithm that merges the overlapping intervals without using any 
+ extra memory: [ (1,7), (8, 19), (30, 34) ]
+ 
 */
 
 package ArraysAndStrings;
