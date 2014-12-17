@@ -1,9 +1,11 @@
 /*
-    Given a phone number in the form of an array of digits, determine all the 
-    mnemonics for that phone number.
-    Assume the mnemonics for all digits are given to you in a hash. Here is an 
-    example of only one of the mnemonics for the phone number:
-    215-5887 2155887 -> CALLTUR
+ 
+ Given a phone number in the form of an array of digits, determine all the 
+ mnemonics for that phone number.
+ Assume the mnemonics for all digits are given to you in a hash. Here is an 
+ example of only one of the mnemonics for the phone number:
+ 215-5887 2155887 -> CALLTUR
+ 
  */
 package ArraysAndStrings;
 
@@ -14,7 +16,7 @@ import java.util.Map;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class Mnemonics
 {
