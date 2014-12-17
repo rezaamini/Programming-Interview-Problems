@@ -1,10 +1,14 @@
+/*
+ 
+ Given an array of stock prices at different times, find the best deal.
+ 
+*/
 
 package ArraysAndStrings;
 
 import java.util.Scanner;
 
 /**
- * Given an array of stock prices at different times, find the best deal.
  * 
  * @author Reza Amini
  */
