@@ -1,10 +1,14 @@
+/*
+ 
+ Implement a Paged Array, which is a set of arrays with a limited maximum size
+ 
+*/
 
 package ArraysAndStrings;
 
 import java.util.ArrayList;
 
-/**
- * Implement a Paged Array, which is a set of arrays with a limited maximum size
+/*
  * 
  * @author Reza Amini
  */
@@ -49,7 +53,7 @@ public class PagedArray
         if(pageIndex != 0 && pageIndex == getSize() && 
                 array.get(pageIndex - 1).size() < getMaxPageSize()) 
             throw new IndexOutOfBoundsException("Previous page is not full yet.");
-        if(elementIndex > array.get(pageIndex).size() + 1) 
+        if(elementIndex >= array.get(pageIndex).size() + 1) 
             throw new IndexOutOfBoundsException("Previous elements of this page are still empty.");
         
         // Base case
