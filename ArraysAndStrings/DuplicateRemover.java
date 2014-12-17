@@ -1,3 +1,8 @@
+/*
+ 
+ Remove duplicate characters from a string.
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -5,8 +10,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /**
- * Remove duplicate characters from a string.
- * 
+ *
  * @author Reza Amini
  */
 public class DuplicateRemover
