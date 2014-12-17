@@ -39,6 +39,8 @@ public class ApplyPermutation
         Set<Integer> duplicateChecker = new HashSet<Integer>();
         for(int i = 0; i < n; i++)
         {
+            if(P[i] < 0 || P[i] >= n)
+                throw new IllegalArgumentException();
             if(!duplicateChecker.contains(P[i]))
                 duplicateChecker.add(P[i]);
             else
@@ -48,9 +50,6 @@ public class ApplyPermutation
         Set<Integer> indicies = new HashSet<Integer>();
         for(int i = 0; i < n; i++)
         {
-            if(P[i] >= n)
-                throw new IllegalArgumentException();
-            
             if(!indicies.contains(i))
             {
                 indicies.add(i);
