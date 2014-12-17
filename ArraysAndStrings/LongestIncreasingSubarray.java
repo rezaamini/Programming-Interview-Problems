@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Find the longest increasing sub array in a given array of integers.
  * 
- * @author rezaamini
+ * @author Reza Amini
  */
 public class LongestIncreasingSubarray
 {
