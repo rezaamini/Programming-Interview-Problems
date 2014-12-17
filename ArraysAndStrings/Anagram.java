@@ -1,4 +1,3 @@
-
 package ArraysAndStrings;
 
 import java.util.Arrays;
@@ -25,8 +24,7 @@ public class Anagram
         checkAnagram_2(s1, s2);
     }
     
-    // Save the strings in arrays of characters, sort the arrays and compare 
-    // them character by character. 
+    // Save the strings in arrays of characters, sort the arrays and compare them character by character. 
     // Time complexity: O(N.logN)
     // Space complexity: O(N)
     public static void checkAnagram_1(String s1, String s2)
@@ -63,8 +61,7 @@ public class Anagram
         char[] s1Array = s1.toCharArray();
         char[] s2Array = s2.toCharArray();
         
-        // If we know that all characters are alphabets, we can use an array of 
-        // size 26 instead of the HashMap
+        // If we know that all characters are alphabets, we can use an array of size 26 instead of the HashMap
         Map<Character, Integer> seen = new HashMap<>();
         if(s1Array.length != s2Array.length)
         {
