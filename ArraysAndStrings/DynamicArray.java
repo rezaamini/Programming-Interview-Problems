@@ -22,7 +22,7 @@ public class DynamicArray
         index = 0;
     }
     
-    // Double the array size if number of elements is more than  current size
+    // Double the array size if number of elements is more than current size
     public void add(int element)
     {
         if(index == -1)
