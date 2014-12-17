@@ -27,25 +27,6 @@ memory for book keeping purposes.
  */
 public class ApplyPermutation
 {
-    public static void main(String[] args)
-    {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        char[] A = new char[n];
-        int[] P = new int[n];
-        for(int i = 0; i < n; i++)
-            A[i] = scan.next().charAt(0);
-        for(int i = 0; i < n; i++)
-            P[i] = scan.nextInt();
-        
-        // You cannot run both methods because when you call the first one, the 
-        // original array A is modified. So, test them one by one by commenting 
-        // the other method.
-        
-        //System.out.println(Arrays.toString(applyPermutation_1(A, P)));
-        System.out.println(Arrays.toString(applyPermutation_2(A, P)));
-    }
-    
     // Swap the elements in the A until all elements are in correct position
     // Time complexity: O(N^2)
     // Space complexity: O(N)
@@ -128,6 +109,25 @@ public class ApplyPermutation
             quickSort(A, P, start, j);
         if(i < end)
             quickSort(A, P, i, end);
+    }
+    
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        char[] A = new char[n];
+        int[] P = new int[n];
+        for(int i = 0; i < n; i++)
+            A[i] = scan.next().charAt(0);
+        for(int i = 0; i < n; i++)
+            P[i] = scan.nextInt();
+        
+        // You cannot run both methods because when you call the first one, the 
+        // original array A is modified. So, test them one by one by commenting 
+        // the other method.
+        
+        //System.out.println(Arrays.toString(applyPermutation_1(A, P)));
+        System.out.println(Arrays.toString(applyPermutation_2(A, P)));
     }
 }
 
