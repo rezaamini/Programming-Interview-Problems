@@ -1,11 +1,15 @@
+/*
+ 
+ Find the maximum sum in a given array of integers.
+ 
+*/
 
 package ArraysAndStrings;
 
 import java.util.Scanner;
 
 /**
- * Find the maximum sum in a given array of integers.
- * 
+ *
  * @author Reza Amini
  */
 public class MaximumSum
