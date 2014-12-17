@@ -7,7 +7,7 @@ package ArraysAndStrings;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class Converter
 {
