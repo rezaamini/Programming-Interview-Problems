@@ -1,3 +1,8 @@
+/*
+ 
+ Find the longest increasing sub array in a given array of integers.
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -5,7 +10,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Find the longest increasing sub array in a given array of integers.
  * 
  * @author Reza Amini
  */
