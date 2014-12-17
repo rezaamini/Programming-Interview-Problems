@@ -1,10 +1,3 @@
-package ArraysAndStrings;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
-
 /*
 
 You have two arrays, A and P of size n. Array A, contains arbitrary elements and 
@@ -20,6 +13,13 @@ additional memory to copy elements of the array but you may use additional
 memory for book keeping purposes.
 
 */
+
+package ArraysAndStrings;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
 
 /**
  *
