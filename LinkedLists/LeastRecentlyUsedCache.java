@@ -1,13 +1,16 @@
 /*
- * A Least Recently Used (LRU) cache of size n is a temporary storage of size n 
- * that holds the top n most frequently accessed items. Implement such storage 
- * with a linked list.
- */
+ 
+ A Least Recently Used (LRU) cache of size n is a temporary storage of size n 
+ that holds the top n most frequently accessed items. Implement such storage 
+ with a linked list.
+ 
+*/
+
 package LinkedLists;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class LeastRecentlyUsedCache<T>
 {
