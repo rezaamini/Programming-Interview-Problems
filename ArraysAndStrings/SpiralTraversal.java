@@ -1,12 +1,15 @@
 /*
-Imagine you have an n x n matrix of numbers; write an algorithm to print the 
-Matrix in a spiral order
- */
+
+ Imagine you have an n x n matrix of numbers; write an algorithm to print the  
+ Matrix in a spiral order.
+ 
+*/
+
 package ArraysAndStrings;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class SpiralTraversal
 {
@@ -27,10 +30,16 @@ public class SpiralTraversal
         
         int[][] matrix3 = {{1, 2},
                            {4, 3}};
+                           
+        int[][] matrix4 = {{1, 2, 3}, 
+                          {8, 9, 4}, 
+                          {7, 6, 5}};
+                          
         System.out.println(traverse(matrix));
         System.out.println(traverse(matrix1));
         System.out.println(traverse(matrix2));
         System.out.println(traverse(matrix3));
+        System.out.println(traverse(matrix4));
     }
     
     public static String traverse(int[][] matrix)
@@ -41,7 +50,7 @@ public class SpiralTraversal
         StringBuilder out = new StringBuilder();
         int row = 0;
         int col = 0;
-        while(n >= 0)
+        while(n > 0)
         {
             if(n == 1)
             {
