@@ -1,3 +1,9 @@
+/*
+
+ You have an array that may contain duplicate elements. 
+ Given an element, write an algorithm that removes all the occurrences of that element.
+
+*/
 
 package ArraysAndStrings;
 
@@ -6,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class RemoveElementOccurence
 {
