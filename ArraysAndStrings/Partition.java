@@ -1,3 +1,10 @@
+/*
+ 
+ Implement a partition method which puts all integer elements larger than a 
+ given pivot after the pivot and puts elements smaller than pivot before it;
+ Make sure you keep the elements equal to pivot beside pivot.
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -5,9 +12,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Implement a partition method which puts all integer elements larger than a 
- * given pivot after the pivot and puts elements smaller than pivot before it;
- * Make sure you keep the elements equal to pivot beside pivot.
  * 
  * @author Reza Amini
  */
