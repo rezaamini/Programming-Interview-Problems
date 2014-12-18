@@ -1,6 +1,9 @@
 /*
- * Can you retrieve the median in O(1) at any given point?
- */
+
+ Can you retrieve the median of a stream of integers in O(1) at any given point?
+ 
+*/
+
 package TreesAndGraphs;
 
 import java.util.PriorityQueue;
@@ -8,14 +11,15 @@ import java.util.Queue;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class FindMedian
 {
     public static int findMedian(IntegerStream stream)
     {
         Queue<Integer> larger = new PriorityQueue<>();
-        MaxHeap smaller = new MaxHeap();
+        // See the MaxHeap implementation in MaxHeap.java file in TreesAndGraphs folder
+        MaxHeap smaller = new MaxHeap(); 
         
         while(!stream.isEmpty())
         {
@@ -43,5 +47,27 @@ public class FindMedian
     public static void main(String[] args)
     {
         System.out.println(findMedian(new IntegerStream()));
+    }
+}
+
+class IntegerStream
+{
+    private Random r;
+    private int counter = 9;
+    
+    public IntegerStream()
+    {
+        r = new Random();
+    }
+    
+    public int read()
+    {
+        counter--;
+        return r.nextInt(50);
+    }
+    
+    public boolean isEmpty()
+    {
+        return counter < 0;
     }
 }
