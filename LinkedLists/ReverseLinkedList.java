@@ -1,6 +1,9 @@
 /*
- * Implement an algorithm that reverses a linked list.
- */
+
+ Implement an algorithm that reverses a linked list.
+ 
+*/
+
 package LinkedLists;
 
 import java.util.ArrayDeque;
@@ -10,7 +13,7 @@ import java.util.Stack;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class ReverseLinkedList
 {
