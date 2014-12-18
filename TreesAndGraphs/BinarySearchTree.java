@@ -1,9 +1,14 @@
+/*
+ 
+ Implement a binary search tree.
+ 
+*/
 
 package TreesAndGraphs;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class BinarySearchTree
 {
@@ -33,6 +38,7 @@ public class BinarySearchTree
             return search(root.left, x);
     }
     
+    // Insert a node with value x to a node named "node" with parent named "parent"
     public void insert(BinarySearchTree node, BinarySearchTree parent, int x)
     {
         if(node == null)
