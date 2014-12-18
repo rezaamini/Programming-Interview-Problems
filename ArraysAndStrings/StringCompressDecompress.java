@@ -1,4 +1,10 @@
+/*
+ 
+Run Length Encoding (RLE) is an algorithm for compressing strings, which is 
+specifically useful in compressing binary values. aabccaabaad <-> 2a1b2c2a1b2a1d
+Implement RLE algorithm for compression and decompression of strings.
 
+*/
 package ArraysAndStrings;
 
 import java.util.Scanner;
