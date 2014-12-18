@@ -1,3 +1,8 @@
+/*
+ 
+ Find all palindromes inside a given string. 
+ 
+*/ 
 
 package ArraysAndStrings;
 
@@ -6,9 +11,8 @@ import java.util.Set;
 import java.util.HashSet;
 
 /**
- * Find all palindromes inside a given string. 
  * 
- * @author rezaamini
+ * @author Reza Amini
  */
 public class Palindrome
 {
