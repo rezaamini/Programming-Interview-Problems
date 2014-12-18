@@ -1,11 +1,14 @@
 /*
- * Here is a sample implementation for a linked list. 
- */
+
+ Implement a linked list.
+ 
+*/
+
 package LinkedLists;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class BasicLinkedList<T>
 {
