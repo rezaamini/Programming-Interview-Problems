@@ -1,6 +1,8 @@
 /*
+
  Given a search string s and another string t, write an algorithm that returns 
  the index of the first occurrence of s in t, if any at all.
+
  */
 package ArraysAndStrings;
 
@@ -8,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class SearchStringInString
 {
