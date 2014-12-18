@@ -1,3 +1,8 @@
+/*
+
+ Write an algorithm to remove all the extra spaces in a string.
+ 
+*/
 
 package ArraysAndStrings;
 
@@ -7,7 +12,7 @@ import java.util.Set;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class RemoveExtraSpacesFromString
 {
