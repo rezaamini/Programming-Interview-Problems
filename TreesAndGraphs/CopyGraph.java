@@ -1,8 +1,11 @@
 /*
- Imagine that you have a directed graph. This graph is connected so you any 
+
+ Imagine that you have a directed graph. This graph is connected so you can 
  reach any node of your choosing from any other node. Write an algorithm to copy 
  this graph.
- */
+ 
+*/
+
 package TreesAndGraphs;
 
 import java.util.ArrayDeque;
@@ -15,7 +18,7 @@ import java.util.Set;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class CopyGraph
 {
@@ -62,6 +65,18 @@ public class CopyGraph
             copy.adjacents.add(adjCopy);
         }
         return copy;
+    }
+}
+
+class GraphNode<T>
+{
+    T value;
+    List<GraphNode> adjacents;
+    
+    public GraphNode(T value)
+    {
+        this.value = value;
+        adjacents = null;
     }
 }
 
