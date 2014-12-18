@@ -1,11 +1,10 @@
-
-package ArraysAndStrings;
-
 /*
-Given a matrix of 0 and 1, for each 0 in the matrix, set all elements in that 
-row and column to 0.
-*/
 
+ Given a matrix of 0 and 1, for each 0 in the matrix, set all elements in that 
+ row and column to 0.
+ 
+*/
+package ArraysAndStrings;
 
 import java.util.Arrays;
 import java.util.HashSet;
