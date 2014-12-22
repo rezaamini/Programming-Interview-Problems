@@ -1,12 +1,14 @@
+/*
+ 
+ Create a stack such that the minimum element of all the elements seen so far 
+ can be retrieved in constant time O(1). 
+ 
+*/
+ 
 package StackAndQueue;
-
 
 import java.util.Stack;
 
-/*
- * Create a stack such that the minimum element of all the elements seen so far 
- * can be retrieved in constant time O(1). 
- */
 /**
  *
  * @author Reza Amini
