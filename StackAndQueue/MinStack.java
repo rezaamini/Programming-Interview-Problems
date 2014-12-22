@@ -5,7 +5,7 @@
  
 */
  
-package StackAndQueue;
+package StacksAndQueues;
 
 import java.util.Stack;
 
