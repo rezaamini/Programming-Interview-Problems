@@ -1,9 +1,14 @@
+/*
+
+ Given two sorted linkedlists, merge them.
+ 
+*/
 
 package MergeSortedLinkedLists;
 
 /**
  *
- * @author rezaamini
+ * @author Reza Amini
  */
 public class MergeSortedLinkedLists
 {
@@ -24,9 +29,9 @@ public class MergeSortedLinkedLists
     
     public static Node merge(Node list1, Node list2)
     {
-        // the important point is defining a dummy node not to lose the begining 
-        // of the result linked list
-        Node dummy = new Node(0); Node result = dummy;
+        // the important point is defining a dummy node not to lose the begining of the result linked list
+        Node dummy = new Node(0); 
+        Node result = dummy;
         while(list1 != null && list2 != null)
         {
             if(list1.value <= list2.value)
