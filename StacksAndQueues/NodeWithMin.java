@@ -1,9 +1,10 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+   
+   Implement a stack node that has an extra property which keeps the stack min.
+   
  */
 
-package Stacks_And_Queues;
+package StacksAndQueues;
 
 /**
  *
