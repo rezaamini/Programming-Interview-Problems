@@ -1,4 +1,4 @@
-package Stacks_And_Queues;
+package StacksAndQueues;
 
 public class Node<T> {
     Node next = null;
