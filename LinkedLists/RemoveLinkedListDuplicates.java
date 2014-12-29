@@ -36,6 +36,32 @@ public class RemoveLinkedListDuplicates<T>
         }
         return head;
     }
+    
+    // Using an extra buffer
+    // Time complexity: O(N), space complexity: O(N)
+    public static LinkedListNode<T> removeDuplicates(Node node){
+        if(head == null)
+            return null;
+        
+        if(head.next == null)
+            return head;
+            
+        HashSet<T> table = new HashSet();
+        LinkedListNode<T> head = node;
+        LinkedListNode<T> previous = null;
+
+        while(node != null) {
+            if (table.contains(node.value))
+                previous.next = node.next;
+            else {
+                table.add(node.value);
+                previous = node;
+            }
+            node = node.next;
+        }
+        
+        return head;
+    }
 }
 
 class LinkedListNode<T>
