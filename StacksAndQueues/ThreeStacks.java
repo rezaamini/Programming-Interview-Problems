@@ -4,7 +4,7 @@
  
 */
 
-package Stacks_And_Queues;
+package StacksAndQueues;
 
 import java.util.ArrayList;
 
