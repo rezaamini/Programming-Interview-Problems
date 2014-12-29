@@ -1,3 +1,9 @@
+/*
+
+   Implement a stack node.
+   
+*/
+
 package StacksAndQueues;
 
 public class Node<T> {
