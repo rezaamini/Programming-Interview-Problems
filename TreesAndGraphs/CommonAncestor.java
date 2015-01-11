@@ -21,7 +21,7 @@ public class CommonAncestor {
             return null;
 
         if(p == q && p == root)
-            return root.parent;
+            return root;
         
         if (p == q && (root.left == q || root.right == q))
             return root;
@@ -68,14 +68,14 @@ public class CommonAncestor {
     // found the common ancestor.
     public static TreeNode commonAncestor_ver2(TreeNode root, TreeNode p, TreeNode q){
         if(p == q && p == root)
-            return root.parent;
+            return root;
         if (covers_ver2(root.right, p) && covers_ver2(root.right, q))
         {
             if(p == q && root.right == p)
                 return root;
             else if(root.right == p || root.right == q)
                 return root;
-            return commonAncestor(root.right, p, q);
+            return commonAncestor_ver2(root.right, p, q);
         }
         if (covers_ver2(root.left, p) && covers_ver2(root.left, q))
         {
@@ -83,7 +83,7 @@ public class CommonAncestor {
                 return root;
             else if(root.left == p || root.left == q)
                 return root;
-            return commonAncestor(root.left, p, q);
+            return commonAncestor_ver2(root.left, p, q);
         }
         return root;
     }
@@ -99,6 +99,30 @@ public class CommonAncestor {
         if (root == p)
             return true;
         return covers_ver2(root.right, p) || covers_ver2(root.left, p);
+    }
+    
+    public static int find(TreeNode root, TreeNode n1, TreeNode n2, NodeOut out)
+    {
+        if(root == null)
+            return 0;
+        int sum = 0;
+        if(n1.getValue() == root.getValue())
+            sum++;
+        if(n2.getValue() == root.getValue())
+            sum++;
+        if(root.left != null)
+        {
+            int left = find(root.left, n1, n2, out);
+            sum += left;
+        }
+        if(root.right != null)
+        {
+            int right = find(root.right, n1, n2, out);
+            sum += right;
+        }
+        if(sum == 2 && out.node == null)
+            out.node = root;
+        return sum;
     }
     
     public static void main(String[] args){
@@ -177,5 +201,41 @@ public class CommonAncestor {
         System.out.println(commonAncestor_ver2(n8, n2, n1).getValue());
         System.out.println(commonAncestor_ver2(n8, n2, n6).getValue());
         System.out.println(commonAncestor_ver2(n8, n2, n10).getValue());
+        
+        System.out.println("------");
+        
+        NodeOut out = new NodeOut();
+        find(n8, n4, n4, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n4, n12, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n8, n4, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n8, n8, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n4, n2, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n2, n1, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n2, n6, out);
+        System.out.println(out.node.getValue());
+        out = new NodeOut();
+        find(n8, n2, n10, out);
+        System.out.println(out.node.getValue());
+    }
+}
+
+class NodeOut
+{
+    TreeNode node;
+    public NodeOut()
+    {
+        node = null;
     }
 }
