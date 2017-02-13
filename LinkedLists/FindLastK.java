@@ -6,6 +6,8 @@
 
 package LinkedLists;
 
+import StacksAndQueues.Node;
+
 /**
  *
  * @author Reza Amini

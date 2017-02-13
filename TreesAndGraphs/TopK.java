@@ -9,7 +9,6 @@ package TreesAndGraphs;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
-import java.util.Random;
 
 
 /**
@@ -44,27 +43,5 @@ public class TopK
             result[i] = heap.remove();
         
         return result;
-    }
-}
-
-class IntegerStream
-{
-    private Random r;
-    private int counter = 9;
-    
-    public IntegerStream()
-    {
-        r = new Random();
-    }
-    
-    public int read()
-    {
-        counter--;
-        return r.nextInt(50);
-    }
-    
-    public boolean isEmpty()
-    {
-        return counter < 0;
     }
 }

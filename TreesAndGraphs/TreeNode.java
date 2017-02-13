@@ -14,7 +14,7 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
     public State state;
-    private int value;
+    public int value;
 
     public TreeNode(int v){
         value = v;
@@ -26,6 +26,3 @@ public class TreeNode {
     }
 }
 
-enum State{
-    Unvisited, Visited, Visiting;
-}

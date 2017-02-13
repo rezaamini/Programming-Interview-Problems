@@ -13,6 +13,8 @@
 
 package LinkedLists;
 
+import StacksAndQueues.Node;
+
 /**
  *
  * @author Reza Amini
@@ -49,10 +51,10 @@ public class Sum {
             
         int num = carry;
         if(n1 != null)
-            num += (Integer)(n1.value);
+            num += (Integer)(n1.data);
 
         if (n2 != null)
-            num += (Integer)(n2.value);
+            num += (Integer)(n2.data);
 
         Node output = new Node (num % 10);
         output.next = sum(num >= 10 ? 1 : 0,
@@ -74,7 +76,7 @@ public class Sum {
         Node n2Copy = n2;
         while(n1Copy != null && n2Copy != null)
         {
-            int temp = (Integer)(n1Copy.value) + (Integer)(n2Copy.value) + carry;
+            int temp = (Integer)(n1Copy.data) + (Integer)(n2Copy.data) + carry;
             Node tempNode = new Node(temp % 10);
             out.appendNode(tempNode);
             carry = temp / 10;
@@ -84,7 +86,7 @@ public class Sum {
         
         while(n1Copy != null)
         {
-            int temp = (Integer)(n1.value)+ carry;
+            int temp = (Integer)(n1.data)+ carry;
             Node tempNode = new Node(temp % 10);
             out.appendNode(tempNode);
             carry = temp / 10;
@@ -93,7 +95,7 @@ public class Sum {
         
         while(n2Copy != null)
         {
-            int temp = (Integer)(n2.value)+ carry;
+            int temp = (Integer)(n2.data)+ carry;
             Node tempNode = new Node(temp % 10);
             out.appendNode(tempNode);
             carry = temp / 10;

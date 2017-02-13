@@ -13,7 +13,7 @@
 
 package LinkedLists;
 
-import java.util.HashSet;
+import StacksAndQueues.Node;
 
 /**
  *
@@ -46,9 +46,9 @@ public class FindCycle {
         // Find the meeting point of the slow and fast pointer
         while(fast.next != null) {
             slow = slow.next;
-            System.out.print("slow: " + slow.value + ", ");
+            System.out.print("slow: " + slow.data + ", ");
             fast = fast.next.next;
-            System.out.println("fast: " + fast.value);
+            System.out.println("fast: " + fast.data);
             if (slow == fast)
                 break;
         }
@@ -63,7 +63,7 @@ public class FindCycle {
             fast = fast.next; // slow down the fast pointer to the same speed as slow pointer
             slow = slow.next;
         }
-        System.out.println("Loop begining: " + slow.value);
+        System.out.println("Loop begining: " + slow.data);
         return slow;
     }
 }

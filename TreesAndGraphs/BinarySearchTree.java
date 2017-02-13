@@ -16,6 +16,11 @@ public class BinarySearchTree
     BinarySearchTree left;
     BinarySearchTree right;
     State state;
+
+    private enum State
+    {
+        VISITED, UNVISITED, VISITING;
+    }
     
     public BinarySearchTree(int value)
     {
@@ -143,9 +148,4 @@ public class BinarySearchTree
         }
     }
     
-}
-
-enum State
-{
-    VISITED, UNVISITED, VISITING;
 }

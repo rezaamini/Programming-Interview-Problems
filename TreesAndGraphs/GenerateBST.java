@@ -11,6 +11,20 @@ import java.util.Arrays;
  */
 public class GenerateBST
 {
+    private class TreeNode
+    {
+        TreeNode left;
+        TreeNode right;
+        int value;
+
+        public TreeNode(int value)
+        {
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+    }
+
     public TreeNode generateBSTFromArray(int[] input)
     {
         Arrays.sort(input);
@@ -30,19 +44,5 @@ public class GenerateBST
         node.left = generateBST_Recursive(input, start, mid - 1);            
         node.right = generateBST_Recursive(input, mid + 1, end);
         return node;
-    }
-}
-
-class TreeNode
-{
-    TreeNode left;
-    TreeNode right;
-    int value;
-    
-    public TreeNode(int value)
-    {
-        this.value = value;
-        this.left = null;
-        this.right = null;
     }
 }

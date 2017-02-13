@@ -7,8 +7,8 @@
 package StacksAndQueues;
 
 public class Node<T> {
-    Node next = null;
-    T data;
+    public Node next = null;
+    public T data;
 
     public Node (T d) {
         data = d;

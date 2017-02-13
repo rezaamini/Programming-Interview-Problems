@@ -10,6 +10,8 @@
 
 package LinkedLists;
 
+import StacksAndQueues.Node;
+
 /**
  *
  * @author Reza Amini
@@ -41,7 +43,7 @@ public class RemoveNode {
         
         Node next = n.next;
         n.next = next.next;
-        n.value = next.value;
+        n.data = next.data;
         
         return true;
     }

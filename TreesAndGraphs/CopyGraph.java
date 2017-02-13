@@ -8,13 +8,7 @@
 
 package TreesAndGraphs;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 /**
  *
@@ -47,7 +41,7 @@ public class CopyGraph
         return copiedGraph;
     }
 
-    private GraphNode<Integer> copyNode(GraphNode<Integer> node, 
+    private GraphNode<Integer> copyNode(GraphNode<Integer> node,
             Map<GraphNode<Integer>, GraphNode<Integer>> copiedNodes)
     {
         if(!copiedNodes.containsKey(node))
@@ -66,32 +60,17 @@ public class CopyGraph
         }
         return copy;
     }
-}
 
-class GraphNode<T>
-{
-    T value;
-    List<GraphNode> adjacents;
-    
-    public GraphNode(T value)
-    {
-        this.value = value;
-        adjacents = null;
-    }
-}
-
-class CopyGraphTester
-{
     public static void main(String[] args)
     {
         CopyGraph cg = new CopyGraph();
-        
-        GraphNode<Integer> a = new GraphNode(1);  
+
+        GraphNode<Integer> a = new GraphNode(1);
         GraphNode<Integer> b = new GraphNode(2);
         GraphNode<Integer> c = new GraphNode(3);
         GraphNode<Integer> d = new GraphNode(4);
         GraphNode<Integer> e = new GraphNode(5);
-        
+
         a.adjacents = new ArrayList<>();
         a.adjacents.add(b);
         b.adjacents = new ArrayList<>();
@@ -103,10 +82,9 @@ class CopyGraphTester
         d.adjacents.add(b);
         d.adjacents.add(e);
         e.adjacents = new ArrayList<>();
-        e.adjacents.add(a);  
-        
+        e.adjacents.add(a);
+
         GraphNode copy = cg.copyGraph(a);
         System.out.println();
     }
 }
-

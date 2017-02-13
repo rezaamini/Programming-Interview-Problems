@@ -18,11 +18,11 @@ public class DuplicateRemover
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
-        String input = scan..nextLine();
+        String input = scan.nextLine();
         char[] chars = input.toCharArray();
         System.out.println(removeDuplicates(chars));
-        System.out.println(removeDuplicates(new StringBuilder(input));
-        System.out.println(removeDuplicates(input);
+        System.out.println(removeDuplicates(new StringBuilder(input)));
+        System.out.println(removeDuplicates(input));
     }
     
     // Time complexity: O(N)

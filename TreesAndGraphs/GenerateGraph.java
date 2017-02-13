@@ -10,13 +10,7 @@
  */
 package TreesAndGraphs;
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 /**
  *
@@ -24,6 +18,11 @@ import java.util.Set;
  */
 public class GenerateGraph
 {
+    private enum CellType
+    {
+        ROAD, WALL, TREASURE;
+    }
+
     public GraphNode<CellType> generateGraph(CellType[][] inputs)
     {
         int rowSize = inputs.length;
@@ -165,21 +164,4 @@ public class GenerateGraph
     {
         return x * rowSize + y;
     }
-}
-
-class GraphNode<T>
-{
-    T value;
-    List<GraphNode> adjacents;
-    
-    public GraphNode(T value)
-    {
-        this.value = value;
-        adjacents = null;
-    }
-}
-
-enum CellType
-{
-    ROAD, WALL, TREASURE;
 }
