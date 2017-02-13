@@ -1,5 +1,8 @@
 package BitManipulation;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 /**
  * Write a method that calculates x to the power of y.
  *
@@ -28,5 +31,14 @@ public class Power {
         }
 
         return result;
+    }
+
+    @Test
+    public void testPower() {
+        Assert.assertEquals(32, power(2, 5), 0.0001);
+        Assert.assertEquals(9, power(3, 2), 0.0001);
+        Assert.assertEquals(27, power(3, 3), 0.0001);
+        Assert.assertEquals(1, power(1, 0), 0.0001);
+        Assert.assertEquals(0.008, power(5, -3), 0.0001);
     }
 }
