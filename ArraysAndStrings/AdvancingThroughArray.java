@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Write a mthod that takes an array of n integers, where A[i] denotes the maximum you can advance from index i, and
+ * Write a method that takes an array of n integers, where A[i] denotes the maximum you can advance from index i, and
  * returns whether it is possible to advance to the last index starting from the beginning of the array.
  *
  * Created by rezaamini on 2/14/17.

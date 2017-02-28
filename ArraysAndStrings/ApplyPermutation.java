@@ -16,117 +16,190 @@ memory for book keeping purposes.
 
 package ArraysAndStrings;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.*;
 
 /**
+ * Write a method that applies a given permutation to an array of positive integers, or characters.
  *
- * @author Reza Amini
+ * Created by rezaamini on 2/26/17.
  */
 public class ApplyPermutation
 {
-    // Swap the elements in the A until all elements are in correct position
-    // Time complexity: O(N^2)
-    // Space complexity: O(N)
-    public static char[] applyPermutation_1(char[] A, int[] P)
-    {
-        int n = A.length;
-        if(n != P.length)
+    // Time complexity: O(n), space complexity: O(1)
+    public static void applyPermutation(List<Integer> permutation, List<Integer> list) {
+        if (!isPermutationValid(permutation, list.size())) {
             throw new IllegalArgumentException();
-        
-        Set<Integer> duplicateChecker = new HashSet<Integer>();
-        for(int i = 0; i < n; i++)
-        {
-            if(P[i] < 0 || P[i] >= n)
-                throw new IllegalArgumentException();
-            if(!duplicateChecker.contains(P[i]))
-                duplicateChecker.add(P[i]);
-            else
-                throw new IllegalArgumentException();
         }
-        
-        Set<Integer> indicies = new HashSet<Integer>();
-        for(int i = 0; i < n; i++)
-        {
-            if(!indicies.contains(i))
-            {
-                indicies.add(i);
-                int nextIndex = P[i];
-                char currentChar = A[i];
-                while(nextIndex != i)
-                {
-                    char temp = A[nextIndex];
-                    A[nextIndex] = currentChar;
-                    currentChar = temp;
-                    indicies.add(nextIndex);
-                    nextIndex = P[nextIndex];
-                }
-                A[nextIndex] = currentChar;
+
+        for (int i = 0; i < list.size(); i++) {
+            int next = i;
+            // Check if element at position i is already moved
+            while (permutation.get(next) >= 0) {
+                Collections.swap(list, i, permutation.get(next));
+                int temp = permutation.get(next);
+                // Subtract permutation.size() from entries to make sure they become negative
+                permutation.set(next, permutation.get(next) - permutation.size());
+                next = temp;
             }
         }
-        return A;
     }
-    
+
+    // If we can not use negating the numbers for marking them, we can use O(n) array for marks
+    // Time complexity: O(n), space complexity: O(n)
+    public static void applyPermutation2(List<Integer> permutation, List<Integer> list) {
+        if (!isPermutationValid(permutation, list.size())) {
+            throw new IllegalArgumentException();
+        }
+
+        boolean[] isDone = new boolean[list.size()];
+
+        for (int i = 0; i < list.size(); i++) {
+            int next = i;
+            while (!isDone[next]) {
+                Collections.swap(list, i, permutation.get(next));
+                isDone[permutation.get(next)] = true;
+                next = permutation.get(next);
+            }
+        }
+    }
+
+    // If we don't use either of above ways for marking the permuted elements, time complexity increases to O(n^2)
+    // We go from left to right and apply the cycle, only if the current position is the leftmost position in cycle
+    // Time complexity: O(n^2), space complexity: O(1)
+    public static void applyPermutation3(List<Integer> permutation, List<Integer> list) {
+        if (!isPermutationValid(permutation, list.size())) {
+            throw new IllegalArgumentException();
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            boolean isMin = true;
+            int j = permutation.get(i);
+
+            // Find the leftmost element of the cycle
+            while (j != i) {
+                if (j < i) {
+                    isMin = false;
+                    break;
+                }
+
+                j = permutation.get(j);
+            }
+
+            if (isMin) {
+                cyclicPermutation(i, permutation, list);
+            }
+        }
+    }
+
+    private static void cyclicPermutation(int start, List<Integer> permutation, List<Integer> list) {
+        int i = start;
+        int temp = list.get(start);
+
+        do {
+            int nextI = permutation.get(i);
+            int nextTemp = list.get(nextI);
+            list.set(nextI, temp);
+            i = nextI;
+            temp = nextTemp;
+        } while (i != start);
+    }
+
     // Sort P along with A.
-    // Time complexity: O(N.logN)
-    // Space complexity: O(1)
-    public static char[] applyPermutation_2(char[] A, int[] P)
-    {
+    // Time complexity: O(n log n), space complexity: O(1)
+    public static void applyPermutation4(List<Integer> permutation, List<Integer> list) {
+        if (!isPermutationValid(permutation, list.size())) {
+            throw new IllegalArgumentException();
+        }
+
         // Assume that both arrays have valid numbers or check them like above method
-        quickSort(A, P, 0, P.length - 1);
-        return A;
+        quickSort(list, permutation, 0, permutation.size() - 1);
     }
-    
-    public static void quickSort(char[] A, int[] P, int start, int end)
-    {
+
+    // Use quick sort to sort a list along with another list
+    // (i.e., as we are sorting permutation list, we do the same swaps on actual list)
+    private static void quickSort(List<Integer> list, List<Integer> permutation, int start, int end) {
         int i = start;
         int j = end;
-        int pivot = P[start + (end - start) / 2];
-        while(i <= j)
-        {
-            while(P[i] < pivot)
+        int pivot = permutation.get(start + (end - start) / 2);
+        while (i <= j) {
+            while(permutation.get(i) < pivot) {
                 i++;
+            }
             
-            while(P[j] > pivot)
+            while(permutation.get(j) > pivot) {
                 j--;
-            
-            if(i <= j)
-            {
-                int tempInt = P[i];
-                char tempChar = A[i];
-                P[i] = P[j];
-                A[i] = A[j];
-                P[j] = tempInt;
-                A[j] = tempChar;
+            }
+
+            if (i <= j) {
+                Collections.swap(permutation, i, j);
+                Collections.swap(list, i, j);
                 i++;
                 j--;
             }
         }
-        if(start < j)
-            quickSort(A, P, start, j);
-        if(i < end)
-            quickSort(A, P, i, end);
+
+        if (start < j) {
+            quickSort(list, permutation, start, j);
+        }
+
+        if (i < end) {
+            quickSort(list, permutation, i, end);
+        }
     }
-    
-    public static void main(String[] args)
-    {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        char[] A = new char[n];
-        int[] P = new int[n];
-        for(int i = 0; i < n; i++)
-            A[i] = scan.next().charAt(0);
-        for(int i = 0; i < n; i++)
-            P[i] = scan.nextInt();
-        
-        // You cannot run both methods because when you call the first one, the 
-        // original array A is modified. So, test them one by one by commenting 
-        // the other method.
-        
-        //System.out.println(Arrays.toString(applyPermutation_1(A, P)));
-        System.out.println(Arrays.toString(applyPermutation_2(A, P)));
+
+    // Checks validity of the permutation
+    private static boolean isPermutationValid(List<Integer> permutation, int listSize) {
+        // Check if permutation array is available
+        if (listSize != permutation.size()) {
+            return false;
+        }
+
+        // Check if permutation array is valid
+        Set<Integer> duplicateChecker = new HashSet<>();
+        for (int i = 0; i < permutation.size(); i++) {
+            if (permutation.get(i) < 0 || permutation.get(i) >= listSize) {
+                return false;
+            }
+
+            if (!duplicateChecker.contains(permutation.get(i))) {
+                duplicateChecker.add(permutation.get(i));
+            } else {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    @Test
+    public void testApplyPermutation() {
+        List<Integer> list = Arrays.asList(5, 7, 1, 2, 8, 9);
+        applyPermutation(Arrays.asList(4, 1, 2, 0, 5, 3), list);
+        Assert.assertEquals(Arrays.asList(2, 7, 1, 9, 5, 8), list);
+    }
+
+    @Test
+    public void testApplyPermutation2() {
+        List<Integer> list = Arrays.asList(5, 7, 1, 2, 8, 9);
+        applyPermutation2(Arrays.asList(4, 1, 2, 0, 5, 3), list);
+        Assert.assertEquals(Arrays.asList(2, 7, 1, 9, 5, 8), list);
+    }
+
+    @Test
+    public void testApplyPermutation3() {
+        List<Integer> list = Arrays.asList(5, 7, 1, 2, 8, 9);
+        applyPermutation3(Arrays.asList(4, 1, 2, 0, 5, 3), list);
+        Assert.assertEquals(Arrays.asList(2, 7, 1, 9, 5, 8), list);
+    }
+
+    @Test
+    public void testApplyPermutation4() {
+        List<Integer> list = Arrays.asList(5, 7, 1, 2, 8, 9);
+        applyPermutation4(Arrays.asList(4, 1, 2, 0, 5, 3), list);
+        Assert.assertEquals(Arrays.asList(2, 7, 1, 9, 5, 8), list);
     }
 }
 
