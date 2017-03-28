@@ -202,4 +202,3 @@ public class ApplyPermutation
         Assert.assertEquals(Arrays.asList(2, 7, 1, 9, 5, 8), list);
     }
 }
-

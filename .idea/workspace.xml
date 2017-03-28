@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d9b837-b339-4af1-9566-a51841cb1f2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockOnce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockTwice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/EnumerateAllPrimes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/BuyAndSellStock.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Stacks_And_Queues/Tower.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Stacks_And_Queues/TowerOfHanoi.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ApplyPermutation.class" afterPath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ApplyPermutation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArraysAndStrings/AdvancingThroughArray.java" afterPath="$PROJECT_DIR$/ArraysAndStrings/AdvancingThroughArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java" afterPath="$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java" afterPath="$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/workspace.xml" />
     </list>
     <ignored path="Programming-Interview-Problems.iws" />
@@ -35,11 +34,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplyPermutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApplyPermutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+            <state relative-caret-position="2790">
+              <caret line="203" column="1" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputeNextPermutation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleOfflineData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="38" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleOnlineData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomPermutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +156,11 @@
         <option value="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockTwice.java" />
         <option value="$PROJECT_DIR$/ArraysAndStrings/EnumerateAllPrimes.java" />
         <option value="$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java" />
+        <option value="$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java" />
+        <option value="$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java" />
+        <option value="$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java" />
+        <option value="$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java" />
+        <option value="$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java" />
       </list>
     </option>
   </component>
@@ -189,8 +241,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -212,46 +264,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.ApplyPermutation">
-    <configuration default="false" name="EnumerateAllPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RandomPermutation.testRandomPermutation">
+    <configuration default="false" name="TowerOfHanoi.testTower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Stacks_And_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Interview-Problems" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.EnumerateAllPrimes" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EnumerateAllPrimes.testEnumerateAllPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.EnumerateAllPrimes" />
-      <option name="METHOD_NAME" value="testEnumerateAllPrimes" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="Stacks_And_Queues.TowerOfHanoi" />
+      <option name="METHOD_NAME" value="testTower" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -265,19 +291,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ApplyPermutation.testAppyPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TowerOfHanoi.testTowerOfHanoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="Stacks_And_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Interview-Problems" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ApplyPermutation" />
-      <option name="METHOD_NAME" value="testAppyPermutation" />
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="Stacks_And_Queues.TowerOfHanoi" />
+      <option name="METHOD_NAME" value="testTowerOfHanoi" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -291,7 +317,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ApplyPermutation.testAppyPermutation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SampleOnlineData.testOnlineRandomSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ArraysAndStrings.*" />
@@ -302,8 +328,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ApplyPermutation" />
-      <option name="METHOD_NAME" value="testAppyPermutation2" />
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SampleOnlineData" />
+      <option name="METHOD_NAME" value="testOnlineRandomSample" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -317,7 +343,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ApplyPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RandomPermutation.testRandomSampling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ArraysAndStrings.*" />
@@ -328,9 +354,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.ApplyPermutation" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RandomPermutation" />
+      <option name="METHOD_NAME" value="testRandomSampling" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomPermutation.testRandomPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RandomPermutation" />
+      <option name="METHOD_NAME" value="testRandomPermutation" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -758,19 +810,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EnumerateAllPrimes" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EnumerateAllPrimes.testEnumerateAllPrimes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ApplyPermutation.testAppyPermutation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ApplyPermutation.testAppyPermutation2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ApplyPermutation" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTower" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTowerOfHanoi" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SampleOnlineData.testOnlineRandomSample" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomSampling" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomPermutation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ApplyPermutation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ApplyPermutation.testAppyPermutation2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ApplyPermutation.testAppyPermutation" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EnumerateAllPrimes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EnumerateAllPrimes.testEnumerateAllPrimes" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomPermutation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomSampling" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SampleOnlineData.testOnlineRandomSample" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTowerOfHanoi" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTower" />
       </list>
     </recent_temporary>
   </component>
@@ -790,44 +842,45 @@
       <workItem from="1486522150704" duration="25662000" />
       <workItem from="1487123963795" duration="429000" />
       <workItem from="1487480188651" duration="14931000" />
-      <workItem from="1488255888923" duration="2123000" />
+      <workItem from="1488255888923" duration="7803000" />
+      <workItem from="1490665325110" duration="3879000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplyPermutation - 2017.02.27 at 23h 59m 45s.xml">
-      <configuration name="ApplyPermutation" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 44s.xml">
+      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation - 2017.02.26 at 23h 39m 47s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 47s.xml">
+      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation2 - 2017.02.27 at 00h 22m 18s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation2" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 50s.xml">
+      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation2 - 2017.02.27 at 00h 27m 54s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation2" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomSampling - 2017.03.27 at 22h 55m 16s.xml">
+      <configuration name="RandomPermutation.testRandomSampling" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation2 - 2017.02.27 at 00h 33m 49s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation2" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomSampling - 2017.03.27 at 22h 55m 21s.xml">
+      <configuration name="RandomPermutation.testRandomSampling" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation2 - 2017.02.27 at 00h 35m 51s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation2" configurationId="JUnit" />
+    <history-entry file="RandomPermutation_testRandomSampling - 2017.03.27 at 22h 55m 24s.xml">
+      <configuration name="RandomPermutation.testRandomSampling" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplyPermutation_testAppyPermutation2 - 2017.02.27 at 00h 36m 40s.xml">
-      <configuration name="ApplyPermutation.testAppyPermutation2" configurationId="JUnit" />
+    <history-entry file="SampleOnlineData_testOnlineRandomSample - 2017.03.27 at 22h 35m 08s.xml">
+      <configuration name="SampleOnlineData.testOnlineRandomSample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnumerateAllPrimes - 2017.02.26 at 19h 35m 19s.xml">
-      <configuration name="EnumerateAllPrimes" configurationId="JUnit" />
+    <history-entry file="SampleOnlineData_testOnlineRandomSample - 2017.03.27 at 22h 35m 11s.xml">
+      <configuration name="SampleOnlineData.testOnlineRandomSample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnumerateAllPrimes - 2017.02.26 at 19h 36m 17s.xml">
-      <configuration name="EnumerateAllPrimes" configurationId="JUnit" />
+    <history-entry file="SampleOnlineData_testOnlineRandomSample - 2017.03.27 at 22h 35m 20s.xml">
+      <configuration name="SampleOnlineData.testOnlineRandomSample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnumerateAllPrimes_testEnumerateAllPrimes - 2017.02.26 at 19h 35m 58s.xml">
-      <configuration name="EnumerateAllPrimes.testEnumerateAllPrimes" configurationId="JUnit" />
+    <history-entry file="SampleOnlineData_testOnlineRandomSample - 2017.03.27 at 22h 35m 22s.xml">
+      <configuration name="SampleOnlineData.testOnlineRandomSample" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43145000" />
+    <option name="totallyTimeSpent" value="52704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1024" height="613" extended-state="0" />
@@ -840,7 +893,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3627639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -879,7 +932,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -888,57 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/IncrementDecimalArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/MultiplyDecimalArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/CommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/GenerateGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/CopyGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#2681#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TreesAndGraphs/GenerateBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1139,6 +1141,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,6 +1149,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,7 +1196,7 @@
         <state relative-caret-position="-390">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1202,7 +1206,7 @@
         <state relative-caret-position="-15">
           <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,7 +1216,7 @@
         <state relative-caret-position="135">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1222,7 +1226,7 @@
         <state relative-caret-position="150">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1250,7 +1254,7 @@
         <state relative-caret-position="463">
           <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1260,7 +1264,7 @@
         <state relative-caret-position="142">
           <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,8 +1278,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+        <state relative-caret-position="2790">
+          <caret line="203" column="1" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortingAndSearching/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
