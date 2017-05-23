@@ -19,9 +19,16 @@ public class InOrderTest {
     }
 
     @Test
-    public void inOrderIterativeTraversalTest() {
+    public void inOrderIterativeTraversalWithStateTest() {
         Integer[] expected = {28, 271, 0, 6, 561, 17, 3, 314, 2, 401, 641, 1, 257, 6, 271, 28};
         Assert.assertArrayEquals(expected, InOrder.traverseIterative(TestBinaryTrees.createTestBinaryTreeWithState())
+                .toArray(new Integer[expected.length]));
+    }
+
+    @Test
+    public void inOrderIterativeTraversalTest() {
+        Integer[] expected = {28, 271, 0, 6, 561, 17, 3, 314, 2, 401, 641, 1, 257, 6, 271, 28};
+        Assert.assertArrayEquals(expected, InOrder.traverseIterative(TestBinaryTrees.createTestBinaryTree())
                 .toArray(new Integer[expected.length]));
     }
 }

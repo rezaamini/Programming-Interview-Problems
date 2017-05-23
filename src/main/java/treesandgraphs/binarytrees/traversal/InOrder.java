@@ -15,6 +15,8 @@ import java.util.List;
  */
 public class InOrder {
 
+    // Time complexity: O(n), where n is number of nodes in the tree.
+    // Space complexity: O(h), where h is height of the tree.
     public static <T> List<T> traverseRecursive(BinaryTreeNode<T> tree) {
         List<T> result = new LinkedList<>();
         traverseRecursive(tree, result);
@@ -53,6 +55,28 @@ public class InOrder {
                     stack.push(current);
                     stack.push(current.getLeft());
                 }
+            }
+        }
+
+        return result;
+    }
+
+    public static <T> List<T> traverseIterative(BinaryTreeNode<T> tree) {
+        Deque<BinaryTreeNode<T>> stack = new LinkedList<>();
+        List<T> result = new LinkedList<>();
+        BinaryTreeNode<T> current = tree;
+
+        while(!stack.isEmpty() || current != null) {
+            if (current != null) {
+                stack.push(current);
+                // Go left
+                current = current.getLeft();
+            } else {
+                // Go up
+                current = stack.pop();
+                result.add(current.getData());
+                // Go right
+                current = current.getRight();
             }
         }
 
