@@ -2,13 +2,775 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d9b837-b339-4af1-9566-a51841cb1f2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ArraysAndStrings/RandomSubset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/AdvancingThroughArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Anagram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/ApplyPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/BinarySearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/BuyAndSellStockOnce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/BuyAndSellStockTwice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/CircuarRightShift.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/ComputeNextPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Converter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/DuplicateRemover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/DutchFlagPartition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/DynamicArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/EnumerateAllPrimes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/IncrementDecimalArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/IsRotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/LongestIncreasingSubarray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/LongestPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/MakePalindromeWithLeastAdd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/MakePalindromeWithLeastInsert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/MaximumSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/MergeOverlapingTimes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Mnemonics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Multiply.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/MultiplyDecimalArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/PagedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Paint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Palindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Partition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/PrintAllPaths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RandomPermutation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RandomSubset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RemoveDuplicatesFromSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RemoveElementOccurence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RemoveExtraSpacesFromString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/ReplaceSpaces.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/Reverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/RotateMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/SampleOfflineData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/SampleOnlineData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/SearchStringInString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/SpiralTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/StringCompressDecompress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/UniqueCharacters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/arraysandstrings/ZeroInMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Add.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Divide.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/IntersectingRectangles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Multiply.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/PalindromeInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Parity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Power.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/Reverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/SwapBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bitmanipulation/UniformRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/Factory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/FactoryMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/OneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductA1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductA2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductB1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/ProductB2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/AbstractFactory/TwoFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/AdvancedMediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/AudioPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/MediaAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/MediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/MovPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Adapter/Mp4Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Bottle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Burger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/ChikenBurger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Coke.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Drink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Meal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/MealBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Packing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Pepsi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/VegBurger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Builder/Wrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/Component.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/ComponentA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/ComponentB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/Decorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/DecoratorA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Decorator/DecoratorB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/ServiceA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/ServiceB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/ServiceSetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Factory/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Factory/IProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Factory/OneProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Factory/ProductFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Factory/TwoProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/Factory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/IProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/OneFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/OneProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/TwoFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/TwoProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/Observeable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/ObserveableA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/ObserverA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Obsever/ObserverB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/FastWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/IWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/SlowWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/FastWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/IFeedable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/IWorkable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/IWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/SlowWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/InterfaceSegregation/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/OpenClose/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/OpenClose/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/OpenClose/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/OpenClose/Shape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/OpenClose/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/SingleResponsibility/Email.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/SingleResponsibility/IContent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Principles/SingleResponsibility/IEmail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Proxy/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Proxy/HighResolutionImage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Proxy/Image.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Proxy/ImageProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Singleton/EnumSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Singleton/Singleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Singleton/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/State/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/State/Context.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/State/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/State/StateA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/State/StateB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/AgressiveBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/CalmBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/DefensiveBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/IBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/Strategy/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/TemplateMethod/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/TemplateMethod/Football.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/TemplateMethod/Game.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/designpatterns/TemplateMethod/Tennis.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/BasicLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/FindCycle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/FindLastK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/FindMiddle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/LeastRecentlyUsedCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/LinkedListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/MergeSortedLinkedLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/RemoveLinkedListDuplicates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/RemoveNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/ReverseLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/linkedlists/Sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/BubbleSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/CountFrequencyInSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/FindElementEqualToIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/FirstLargerInSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/FirstOccurrenceInSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/InsertionSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/MergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/MergeSortedArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/MergeSortedLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SearchInRotatedSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SearchInSortedMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SearchInSortedStringArrayWithEmptyStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SortAnagrams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SortLargeFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/SquareRoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingandsearching/TowerOfPeople.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/MinStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/MinStack_ver2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/NodeWithMin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/QueueUsingStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/QueueUsingStackWithMax.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/QueueWithMax.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/SetOfStacks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/SortStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/StackWithMax.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/ThreeStacks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/TowerOfHanoi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/BinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/CommonAncestor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/CopyGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/CreateDepthLevelLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/DijkstraShortestPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/FindMedian.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/FindPathSumRoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/FindSink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/FirstCommonAncestor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/GenerateBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/GenerateGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/GraphNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IntegerStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IsBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IsSubTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IsThereRoute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IsTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/IsTreeBalanced.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/MaxHeap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/Maze.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/MinimalHeightBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/NumberOfShortestPaths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/PathSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/ShortestPathWithLargestCrossability.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/SuccessorInBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/TopK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/TreeHeightHeads.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckHeightBalanced.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckSymmetric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithParentPointer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PostOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PreOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/Traverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SortingAndSearching/QuickSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/QueueUsingStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/SetOfStacks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TreesAndGraphs/FindMedian.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TreesAndGraphs/Traverse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/FactoryMaker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/OneFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductA1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductA2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductB1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/ProductB2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/AbstractFactory/TwoFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/AdvancedMediaPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/AudioPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/MediaAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/MediaPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/MovPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Adapter/Mp4Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/AdvancingThroughArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Anagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ApplyPermutation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ArrayElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/BinarySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/BuyAndSellStockOnce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/BuyAndSellStockTwice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/CircuarRightShift.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ComputeNextPermutation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Converter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/DuplicateRemover.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/DutchFlagPartition$Color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/DutchFlagPartition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/DynamicArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/EnumerateAllPrimes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/IncrementDecimalArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/IsRotation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/LongestIncreasingSubarray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/LongestPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/MakePalindromeWithLeastAdd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/MakePalindromeWithLeastInsert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/MaximumSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/MergeOverlapingTimes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Mnemonics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Multiply.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/MultiplyDecimalArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/PagedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/PagedArrayTester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Paint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/PairComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Palindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Partition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/PrintAllPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RandomPermutation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RandomSubset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RemoveDuplicatesFromSortedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RemoveElementOccurence.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RemoveExtraSpacesFromString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ReplaceSpaces.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Reverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/RotateMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/SampleOfflineData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/SampleOnlineData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/SearchStringInString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/SpiralTraversal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/StringCompressDecompress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/UniqueCharacters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/ArraysAndStrings/ZeroInMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Add.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Divide.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/IntersectingRectangles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Multiply.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/PalindromeInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Parity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Power.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/Reverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/SwapBits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/BitManipulation/UniformRandom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Bottle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Burger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/ChikenBurger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Coke.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Drink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Meal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/MealBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Packing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Pepsi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/VegBurger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Builder/Wrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/Component.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/ComponentA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/ComponentB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/Decorator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/DecoratorA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Decorator/DecoratorB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/Service.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/ServiceA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/ServiceB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/ServiceSetter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/DependencyInjection/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Factory/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Factory/IProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Factory/OneProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Factory/ProductFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Factory/TwoProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/IProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/OneFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/OneProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/TwoFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/FactoryMethod/TwoProduct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/BasicLinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/FindCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/FindLastK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/FindMiddle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/LRU_Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/LeastRecentlyUsedCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/LinkedListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/RemoveLinkedListDuplicates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/RemoveNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/ReverseLinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/LinkedLists/Sum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/MergeSortedLinkedLists/MergeSortedLinkedLists.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/MergeSortedLinkedLists/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/Observeable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/ObserveableA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/ObserverA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Obsever/ObserverB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/DependencyInversion/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/DependencyInversion/FastWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/DependencyInversion/IWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/DependencyInversion/SlowWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/DependencyInversion/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/FastWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/IFeedable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/IWorkable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/IWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/Robot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/SlowWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/InterfaceSegregation/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/OpenClose/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/OpenClose/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/OpenClose/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/OpenClose/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/OpenClose/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/SingleResponsibility/Email.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/SingleResponsibility/IContent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Principles/SingleResponsibility/IEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Programming-Interview-Problems.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Proxy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Proxy/HighResolutionImage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Proxy/Image.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Proxy/ImageProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Singleton/EnumSingleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Singleton/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Singleton/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/AnagramComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/BubbleSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/CountFrequencyInSortedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/FindElementEqualToIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/FirstLargerInSortedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/FirstOccurrenceInSortedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/InsertionSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/MergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/MergeSortedArrays$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/MergeSortedArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/MergeSortedLinkedList$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/MergeSortedLinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/PersonComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/QuickSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SearchInRotatedSortedArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SearchInSortedMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SearchInSortedStringArrayWithEmptyStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SortAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SortLargeFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/SquareRoot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/SortingAndSearching/TowerOfPeople.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/MinNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/MinStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/MinStack_ver2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/NodeWithMin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/Queue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/QueueUsingStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/QueueUsingStack_Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/SetOfStacks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/SetOfStacks_Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/SortStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/Stack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/ThreeStacks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/ThreeStacks_Tester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/ThreeStacks_approach2$StackNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/ThreeStacks_approach2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/Tower.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/StacksAndQueues/TowerOfHanoi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/State/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/State/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/State/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/State/StateA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/State/StateB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/AgressiveBehavior.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/CalmBehavior.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/DefensiveBehavior.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/IBehavior.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/Strategy/Robot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TemplateMethod/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TemplateMethod/Football.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TemplateMethod/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TemplateMethod/Tennis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/BinarySearchTree$State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/BinarySearchTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/CommonAncestor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/CopyGraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/CreateDepthLevelLists.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/DijkstraShortestPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/EdgeObj.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/FindMedian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/FindPathSumRoot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/FindSink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/FirstCommonAncestor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GenerateBST$TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GenerateBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GenerateGraph$CellType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GenerateGraph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/Graph.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GraphNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/GraphWithHeight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IntegerStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IsBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IsSubTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IsThereRoute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IsTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/IsTreeBalanced.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/MaxHeap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/MaxHeapTester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/Maze.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/MinimalHeightBinaryTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/NodeOut.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/NumberOfShortestPaths.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/ParentedTreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/PathSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/ShortestPathWithLargestCrossability.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/SuccessorInBST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/TopK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/Traverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/TreeHeightHeads.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/Vertex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/VertexObj.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Interview-Problems/TreesAndGraphs/VertexWithHeight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/AdvancingThroughArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Anagram.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/ApplyPermutation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/BinarySearch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/BuyAndSellStockOnce.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/BuyAndSellStockTwice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/CircuarRightShift.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/ComputeNextPermutation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Converter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/DuplicateRemover.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/DutchFlagPartition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/DynamicArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/EnumerateAllPrimes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/IncrementDecimalArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/IsRotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/LongestIncreasingSubarray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/LongestPalindrome.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/MakePalindromeWithLeastAdd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/MakePalindromeWithLeastInsert.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/MaximumSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/MergeOverlapingTimes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Mnemonics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Multiply.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/MultiplyDecimalArrays.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/PagedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Paint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Palindrome.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Partition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/PrintAllPaths.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RandomPermutation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RandomSubset.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RemoveDuplicatesFromSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RemoveElementOccurence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RemoveExtraSpacesFromString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/ReplaceSpaces.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/Reverse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/RotateMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/SampleOfflineData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/SampleOnlineData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/SearchStringInString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/SpiralTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/StringCompressDecompress.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/UniqueCharacters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/arraysandstrings/ZeroInMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Add.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Divide.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/IntersectingRectangles.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Multiply.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/PalindromeInteger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Parity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Power.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/Reverse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/SwapBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bitmanipulation/UniformRandom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/Factory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/FactoryMaker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/OneFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductA1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductA2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductB1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/ProductB2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/AbstractFactory/TwoFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/AdvancedMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/AudioPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/MediaAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/MediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/MovPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Adapter/Mp4Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Bottle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Burger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/ChikenBurger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Coke.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Drink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Meal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/MealBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Packing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Pepsi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/VegBurger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Builder/Wrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/Component.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/ComponentA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/ComponentB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/Decorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/DecoratorA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Decorator/DecoratorB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/Service.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/ServiceA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/ServiceB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/ServiceSetter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/DependencyInjection/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Factory/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Factory/IProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Factory/OneProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Factory/ProductFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Factory/TwoProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/Factory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/IProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/OneFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/OneProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/TwoFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/FactoryMethod/TwoProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/Observeable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/ObserveableA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/Observer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/ObserverA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Obsever/ObserverB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/FastWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/IWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/SlowWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/FastWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/IFeedable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/IWorkable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/IWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/Robot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/SlowWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/InterfaceSegregation/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/OpenClose/Circle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/OpenClose/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/OpenClose/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/OpenClose/Shape.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/OpenClose/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/SingleResponsibility/Email.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/SingleResponsibility/IContent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Principles/SingleResponsibility/IEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Proxy/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Proxy/HighResolutionImage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Proxy/Image.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Proxy/ImageProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Singleton/EnumSingleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Singleton/Singleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Singleton/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/State/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/State/Context.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/State/State.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/State/StateA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/State/StateB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/AgressiveBehavior.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/CalmBehavior.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/DefensiveBehavior.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/IBehavior.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/Strategy/Robot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/TemplateMethod/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/TemplateMethod/Football.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/TemplateMethod/Game.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designpatterns/TemplateMethod/Tennis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/BasicLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/FindCycle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/FindLastK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/FindMiddle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/LeastRecentlyUsedCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/LinkedListNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/MergeSortedLinkedLists.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/RemoveLinkedListDuplicates.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/RemoveNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/ReverseLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/linkedlists/Sum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/BubbleSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/CountFrequencyInSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/FindElementEqualToIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/FirstLargerInSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/FirstOccurrenceInSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/InsertionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/MergeSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/MergeSortedArrays.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/MergeSortedLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/Pair.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SearchInRotatedSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SearchInSortedMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SearchInSortedStringArrayWithEmptyStrings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SortAnagrams.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SortLargeFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/SquareRoot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sortingandsearching/TowerOfPeople.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/MinStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/MinStack_ver2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/NodeWithMin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/Queue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/SortStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/Stack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/ThreeStacks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stacksandqueues/TowerOfHanoi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/BinarySearchTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/CommonAncestor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/CopyGraph.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/CreateDepthLevelLists.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/DijkstraShortestPath.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/FindPathSumRoot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/FindSink.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/FirstCommonAncestor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/GenerateBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/GenerateGraph.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/GraphNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IntegerStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IsBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IsSubTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IsThereRoute.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IsTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/IsTreeBalanced.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/MaxHeap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/Maze.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/MinimalHeightBinaryTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/NumberOfShortestPaths.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/PathSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/ShortestPathWithLargestCrossability.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/State.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/SuccessorInBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/TopK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/TreeHeightHeads.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/treesandgraphs/TreeNode.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/README" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming-Interview-Problems.iml" afterPath="$PROJECT_DIR$/Programming-Interview-Problems.iml" />
     </list>
     <ignored path="Programming-Interview-Problems.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,37 +786,13 @@
     <favorites_list name="Programming-Interview-Problems" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RandomSubset.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomSubset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomPermutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="41" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -69,54 +807,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ArraysAndStrings/DuplicateRemover.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/GenerateGraph.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/CopyGraph.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/GenerateBST.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/TopK.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/IntegerStream.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/FindMedian.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/TreeNode.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/State.java" />
-        <option value="$PROJECT_DIR$/StacksAndQueues/Node.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/RemoveNode.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/GraphNode.java" />
-        <option value="$PROJECT_DIR$/TreesAndGraphs/FindPathSumRoot.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/FindCycle.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/LinkedListNode.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/BasicLinkedList.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/Sum.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/FindLastK.java" />
-        <option value="$PROJECT_DIR$/LinkedLists/RemoveLinkedListDuplicates.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/SwapBits.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Parity.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/Anagram.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Add.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Multiply.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Divide.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Power.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/Reverse.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/PalindromeInteger.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/UniformRandom.java" />
-        <option value="$PROJECT_DIR$/BitManipulation/IntersectingRectangles.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/DutchFlagPartition.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/IncrementInteger.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/IncrementDecimalArray.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/MultiplyDecimalArrays.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/AdvancingThroughArray.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStock.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockOnce.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockTwice.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/EnumerateAllPrimes.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java" />
-        <option value="$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java" />
-        <option value="$PROJECT_DIR$/ArraysAndStrings/RandomSubset.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/MediaAdapter.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/MovPlayer.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/Mp4Player.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Builder/Bottle.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Decorator/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/DependencyInjection/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Factory/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/FactoryMethod/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Obsever/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Proxy/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Singleton/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/State/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/Strategy/AgressiveBehavior.java" />
+        <option value="$PROJECT_DIR$/src/designpatterns/TemplateMethod/Client.java" />
+        <option value="$PROJECT_DIR$/src/TreesAndGraphs/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/linkedlists/BasicLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/TreesAndGraphs/binarytrees/traversal/InOrder.java" />
+        <option value="$PROJECT_DIR$/src/TreesAndGraphs/binarytrees/traversal/Traverse.java" />
+        <option value="$PROJECT_DIR$/src/linkedlists/FindLastK.java" />
+        <option value="$PROJECT_DIR$/src/linkedlists/FindCycle.java" />
+        <option value="$PROJECT_DIR$/src/linkedlists/MergeSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/treesandgraphs/State.java" />
+        <option value="$PROJECT_DIR$/src/treesandgraphs/binarytrees/traversal/InOrder.java" />
+        <option value="$PROJECT_DIR$/src/treesandgraphs/binarytrees/BinaryTreeNodeWithState.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/BinaryTreeNodeWithState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/TestTrees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/BalanceStatusWithHeight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckHeightBalanced.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PostOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PreOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/Traverse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/TestBinaryTrees.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckSymmetric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithParentPointer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" />
       </list>
     </option>
   </component>
@@ -132,11 +873,20 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1024" />
-    <option name="height" value="613" />
+    <option name="x" value="-1080" />
+    <option name="y" value="-1479" />
+    <option name="width" value="1080" />
+    <option name="height" value="1893" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,14 +941,242 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ArraysAndStrings" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytrees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytrees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="traversal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytrees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytrees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treesandgraphs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treesandgraphs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstCommonAncestor.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treesandgraphs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binarytrees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Interview-Problems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -213,27 +1191,69 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/RadioTaghcheh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
-  <component name="RunManager" selected="JUnit.RandomSubset.testRandomPermutation">
-    <configuration default="false" name="TowerOfHanoi.testTowerOfHanoi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="treesandgraphs.binarytrees.nodesum" />
+      <recent name="treesandgraphs.binarytrees.lca" />
+      <recent name="treesandgraphs.binarytrees.balance" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="treesandgraphs.binarytrees" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RootToLeafPathSumTest.sumRootToLeaf">
+    <configuration default="false" name="CheckSymmetricTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Stacks_And_Queues.*" />
+          <option name="PATTERN" value="treesandgraphs.binarytrees.balance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Interview-Problems" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="StacksAndQueues" />
-      <option name="MAIN_CLASS_NAME" value="Stacks_And_Queues.TowerOfHanoi" />
-      <option name="METHOD_NAME" value="testTowerOfHanoi" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.balance" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.balance.CheckSymmetricTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LowestCommonAncestorTest.lca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="treesandgraphs.binarytrees.lca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.lca" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.lca.LowestCommonAncestorTest" />
+      <option name="METHOD_NAME" value="lca" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -247,19 +1267,40 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SampleOnlineData.testOnlineRandomSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="All in Programming-Interview-Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LowestCommonAncestorWithParentPointerTest.lcaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="treesandgraphs.binarytrees.lca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Interview-Problems" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.SampleOnlineData" />
-      <option name="METHOD_NAME" value="testOnlineRandomSample" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.lca" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.lca.LowestCommonAncestorWithParentPointerTest" />
+      <option name="METHOD_NAME" value="lcaTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -273,71 +1314,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="RandomPermutation.testRandomSampling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RootToLeafPathSumTest.sumRootToLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="treesandgraphs.binarytrees.nodesum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Interview-Problems" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RandomPermutation" />
-      <option name="METHOD_NAME" value="testRandomSampling" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomPermutation.testRandomPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RandomPermutation" />
-      <option name="METHOD_NAME" value="testRandomPermutation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomSubset.testRandomPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.RandomSubset" />
-      <option name="METHOD_NAME" value="testRandomPermutation" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.nodesum" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.nodesum.RootToLeafPathSumTest" />
+      <option name="METHOD_NAME" value="sumRootToLeaf" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -766,19 +1755,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTowerOfHanoi" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SampleOnlineData.testOnlineRandomSample" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomSampling" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomPermutation" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RandomSubset.testRandomPermutation" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheckSymmetricTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorTest.lca" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Programming-Interview-Problems" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorWithParentPointerTest.lcaTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RootToLeafPathSumTest.sumRootToLeaf" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RandomSubset.testRandomPermutation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomPermutation" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RandomPermutation.testRandomSampling" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SampleOnlineData.testOnlineRandomSample" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TowerOfHanoi.testTowerOfHanoi" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RootToLeafPathSumTest.sumRootToLeaf" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorWithParentPointerTest.lcaTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Programming-Interview-Problems" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorTest.lca" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheckSymmetricTest" />
       </list>
     </recent_temporary>
   </component>
@@ -799,74 +1788,83 @@
       <workItem from="1487123963795" duration="429000" />
       <workItem from="1487480188651" duration="14931000" />
       <workItem from="1488255888923" duration="7803000" />
-      <workItem from="1490665325110" duration="7274000" />
+      <workItem from="1490665325110" duration="17534000" />
+      <workItem from="1491278607997" duration="281000" />
+      <workItem from="1492931848629" duration="41000" />
+      <workItem from="1493184368558" duration="265000" />
+      <workItem from="1493339613830" duration="201000" />
+      <workItem from="1493340742888" duration="312000" />
+      <workItem from="1493342537221" duration="680000" />
+      <workItem from="1494911704861" duration="11888000" />
+      <workItem from="1495296370509" duration="22766000" />
+      <workItem from="1495509950413" duration="2279000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 44s.xml">
-      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="CheckSymmetricTest - 2017.05.20 at 17h 33m 30s.xml">
+      <configuration name="CheckSymmetricTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 47s.xml">
-      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="LowestCommonAncestorTest_lca - 2017.05.21 at 14h 08m 57s.xml">
+      <configuration name="LowestCommonAncestorTest.lca" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomPermutation_testRandomPermutation - 2017.03.27 at 22h 55m 50s.xml">
-      <configuration name="RandomPermutation.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 34m 02s.xml">
+      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 19m 59s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 36m 27s.xml">
+      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 25m 42s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 38m 21s.xml">
+      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 25m 45s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 38m 41s.xml">
+      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 28m 40s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="PostOrder_testPostOrderIterativeTraversal - 2017.05.20 at 15h 46m 40s.xml">
+      <configuration name="PostOrder.testPostOrderIterativeTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 29m 37s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="PreOrderTest_testInOrderRecursiveTraversal - 2017.05.20 at 15h 44m 48s.xml">
+      <configuration name="PreOrderTest.testInOrderRecursiveTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 29m 39s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="RootToLeafPathSumTest_sumRootToLeaf - 2017.05.22 at 23h 57m 32s.xml">
+      <configuration name="RootToLeafPathSumTest.sumRootToLeaf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomSubset_testRandomPermutation - 2017.03.28 at 01h 29m 42s.xml">
-      <configuration name="RandomSubset.testRandomPermutation" configurationId="JUnit" />
+    <history-entry file="RootToLeafPathSumTest_sumRootToLeaf - 2017.05.22 at 23h 59m 21s.xml">
+      <configuration name="RootToLeafPathSumTest.sumRootToLeaf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56099000" />
+    <option name="totallyTimeSpent" value="105072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="613" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1080" y="-1479" width="1080" height="1893" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3627639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983023" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19433647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24949084" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24470136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5547025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55440414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -884,7 +1882,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TreesAndGraphs/CopyGraph.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/treesandgraphs/CopyGraph.java</url>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -897,404 +1895,391 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/TopK.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Adapter/MediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/IntegerStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Adapter/MovPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/FindMedian.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Adapter/Mp4Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/Traverse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Builder/Bottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/State.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Decorator/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StacksAndQueues/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/RemoveNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/IsThereRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TreesAndGraphs/FindPathSumRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/FindCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/BasicLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/FindLastK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/LinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedLists/RemoveLinkedListDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Programming-Interview-Problems.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Factory/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/SwapBits.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/Anagram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Obsever/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Parity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Add.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Proxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Multiply.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Singleton/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Divide.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/State/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Power.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Strategy/AgressiveBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/TemplateMethod/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/PalindromeInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/UniformRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BitManipulation/IntersectingRectangles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlists/BasicLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/DutchFlagPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="4992" column="30" selection-start-line="4992" selection-start-column="30" selection-end-line="4992" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/EnumerateAllPrimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockTwice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/BuyAndSellStockOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/AdvancingThroughArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RemoveDuplicatesFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/DuplicateRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/MultiplyDecimalArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/IncrementDecimalArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlists/MergeSortedLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ComputeNextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StacksAndQueues/TowerOfHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortingAndSearching/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOnlineData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/TowerOfHanoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="363">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/CreateDepthLevelLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlists/LeastRecentlyUsedCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/CommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlists/FindLastK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/linkedlists/FindCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/SampleOfflineData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/BalanceStatusWithHeight.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="38" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PostOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/Traverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/FirstCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckSymmetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithParentPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/ApplyPermutation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="203" column="1" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckHeightBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomPermutation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndStrings/RandomSubset.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1356,7 +2341,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1376,6 +2360,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.projectlombok:lombok-maven:1.16.16.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
