@@ -3,7 +3,7 @@ package treesandgraphs.binarytrees.traversal;
 import treesandgraphs.binarytrees.node.BinaryTreeNode;
 
 /**
- * Computes the K'th node in an inorder traversal.
+ * Computes the k'th node in an inorder traversal.
  *
  * Created by rezaamini on 5/23/17.
  */

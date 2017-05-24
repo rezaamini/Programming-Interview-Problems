@@ -22,10 +22,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Programming-Interview-Problems" />
+        <module name="Programming-Problems" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="Programming-Interview-Problems" target="1.8" />
+      <module name="Programming-Problems" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
