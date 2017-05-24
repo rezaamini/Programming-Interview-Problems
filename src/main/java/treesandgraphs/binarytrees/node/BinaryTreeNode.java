@@ -1,5 +1,6 @@
 package treesandgraphs.binarytrees.node;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import lombok.Setter;
  *
  * Created by rezaamini on 5/20/17.
  */
+@EqualsAndHashCode
 public class BinaryTreeNode<T> {
 
     @Getter @Setter private T data;
@@ -16,6 +18,12 @@ public class BinaryTreeNode<T> {
 
     public BinaryTreeNode(T data) {
         this.data = data;
+    }
+
+    public BinaryTreeNode(T data, BinaryTreeNode<T> left, BinaryTreeNode<T> right) {
+        this(data);
+        this.left = left;
+        this.right = right;
     }
 
     public int getSize() {

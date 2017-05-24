@@ -57,6 +57,6 @@ public class RandomSubset {
         }
 
         // If it is uniform random, percentage should be c(6, 3) = 6!/(3!*3!) = 0.05
-        Assert.assertEquals(0.05, counter / 100000.0, 0.001);
+        Assert.assertEquals(0.05, counter / 100000.0, 0.01);
     }
 }
