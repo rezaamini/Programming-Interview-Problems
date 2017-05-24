@@ -6,7 +6,7 @@ import treesandgraphs.binarytrees.TestBinaryTrees;
 import treesandgraphs.binarytrees.node.BinaryTreeNode;
 
 /**
- * Tests FindPathWithRootToLeafSum class.
+ * Tests {@link FindPathWithRootToLeafSum} class.
  *
  * Created by rezaamini on 5/23/17.
  */

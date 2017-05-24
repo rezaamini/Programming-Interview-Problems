@@ -5,7 +5,7 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.TestBinaryTrees;
 
 /**
- * Test PostOrder class.
+ * Test {@link PostOrder} class.
  *
  * Created by rezaamini on 5/20/17.
  */

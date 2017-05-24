@@ -5,7 +5,7 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.node.BinaryTreeNode;
 
 /**
- * Tests LowestCommonAncestor class.
+ * Tests {@link LowestCommonAncestor} class.
  *
  * Created by rezaamini on 5/21/17.
  */

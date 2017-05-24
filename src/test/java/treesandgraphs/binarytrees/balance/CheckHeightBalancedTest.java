@@ -5,7 +5,7 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.TestBinaryTrees;
 
 /**
- * Tests CheckHeightBalanced class.
+ * Tests {@link CheckHeightBalanced} class.
  *
  * Created by rezaamini on 5/20/17.
  */

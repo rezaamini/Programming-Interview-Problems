@@ -1,17 +1,17 @@
-package treesandgraphs.binarytrees.lca;
+package treesandgraphs.binarytrees.traversal;
 
 import org.junit.Assert;
 import org.junit.Test;
 import treesandgraphs.binarytrees.node.BinaryTreeNodeWithParentPointer;
 
 /**
- * Tests {@link LowestCommonAncestorWithParentPointer} class.
+ * Tests {@link SuccessorInInorderTraversal} class.
  *
- * Created by rezaamini on 5/22/17.
+ * Created by rezaamini on 5/24/17.
  */
-public class LowestCommonAncestorWithParentPointerTest {
+public class SuccessorInInorderTraversalTest {
     @Test
-    public void lcaTest() {
+    public void successor() throws Exception {
         BinaryTreeNodeWithParentPointer<Integer> a = new BinaryTreeNodeWithParentPointer<>(314);
         BinaryTreeNodeWithParentPointer<Integer> b = new BinaryTreeNodeWithParentPointer<>(6);
         BinaryTreeNodeWithParentPointer<Integer> c = new BinaryTreeNodeWithParentPointer<>(271);
@@ -69,10 +69,8 @@ public class LowestCommonAncestorWithParentPointerTest {
         o.setRight(p);
         p.setParent(o);
 
-        Assert.assertTrue(LowestCommonAncestorWithParentPointer.lca(l, o).getData() == 6);
-        Assert.assertTrue(LowestCommonAncestorWithParentPointer.lca(i, o).getData() == 6);
-        Assert.assertTrue(LowestCommonAncestorWithParentPointer.lca(k, c).getData() == 314);
-        Assert.assertTrue(LowestCommonAncestorWithParentPointer.lca(a, m).getData() == 314);
+        Assert.assertTrue(SuccessorInInorderTraversal.successor(j).getData() == 401);
+        Assert.assertTrue(SuccessorInInorderTraversal.successor(g).getData() == 314);
     }
 
 }

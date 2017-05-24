@@ -5,7 +5,7 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.TestBinaryTrees;
 
 /**
- * Tests InOrder traversal.
+ * Tests {@link InOrder} traversal.
  *
  * Created by rezaamini on 5/20/17.
  */

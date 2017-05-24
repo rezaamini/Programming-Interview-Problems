@@ -5,6 +5,8 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.node.BinaryTreeNode;
 
 /**
+ * Tests {@link RootToLeafPathSum} class.
+ *
  * Created by rezaamini on 5/22/17.
  */
 public class RootToLeafPathSumTest {

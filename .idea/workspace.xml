@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85d9b837-b339-4af1-9566-a51841cb1f2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/node/BinaryTreeNodeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/treesandgraphs/binarytrees/node/BinaryTreeNode.class" afterPath="$PROJECT_DIR$/target/classes/treesandgraphs/binarytrees/node/BinaryTreeNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/treesandgraphs/binarytrees/traversal/InOrder.class" afterPath="$PROJECT_DIR$/target/classes/treesandgraphs/binarytrees/traversal/InOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/treesandgraphs/binarytrees/TestBinaryTrees.class" afterPath="$PROJECT_DIR$/target/test-classes/treesandgraphs/binarytrees/TestBinaryTrees.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.class" afterPath="$PROJECT_DIR$/target/test-classes/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java" afterPath="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" />
     </list>
     <ignored path="Programming-Interview-Problems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindPathWithRootToLeafSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSum.java">
+      <file leaf-file-name="InOrderWithParentPointer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindPathWithRootToLeafSumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,31 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBinaryTrees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java">
+      <file leaf-file-name="InOrderWithParentPointerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InOrderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -102,15 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/MovPlayer.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Adapter/Mp4Player.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Builder/Bottle.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Decorator/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/DependencyInjection/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Factory/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/FactoryMethod/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Obsever/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpatterns/Principles/DependencyInversion/Client.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/Proxy/Client.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/Singleton/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/designpatterns/State/Client.java" />
@@ -137,22 +128,31 @@
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/PreOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/Traverse.java" />
         <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/TestBinaryTrees.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckSymmetric.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNodeWithParentPointer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointer.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/node/BinaryTreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointerTest.java" />
       </list>
     </option>
   </component>
@@ -178,10 +178,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1080" />
-    <option name="y" value="-1479" />
-    <option name="width" value="1080" />
-    <option name="height" value="1893" />
+    <option name="x" value="2360" />
+    <option name="y" value="-671" />
+    <option name="width" value="1688" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -279,66 +279,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="traversal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binarytrees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binarytrees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="balance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,40 +419,6 @@
               <option name="myItemId" value="binarytrees" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodesum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Interview-Problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="treesandgraphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binarytrees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -566,6 +472,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="treesandgraphs.binarytrees.traversal" />
+      <recent name="treesandgraphs.binarytrees.node" />
       <recent name="treesandgraphs.binarytrees.nodesum" />
       <recent name="treesandgraphs.binarytrees.lca" />
       <recent name="treesandgraphs.binarytrees.balance" />
@@ -577,106 +485,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InOrderTest.inOrderIterativeTraversalTest">
-    <configuration default="false" name="All in Programming-Interview-Problems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LowestCommonAncestorWithParentPointerTest.lcaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="treesandgraphs.binarytrees.lca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.lca" />
-      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.lca.LowestCommonAncestorWithParentPointerTest" />
-      <option name="METHOD_NAME" value="lcaTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RootToLeafPathSumTest.sumRootToLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="treesandgraphs.binarytrees.nodesum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.nodesum" />
-      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.nodesum.RootToLeafPathSumTest" />
-      <option name="METHOD_NAME" value="sumRootToLeaf" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FindPathWithRootToLeafSumTest.hasPathWithSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="treesandgraphs.binarytrees.nodesum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Interview-Problems" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.nodesum" />
-      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.nodesum.FindPathWithRootToLeafSumTest" />
-      <option name="METHOD_NAME" value="hasPathWithSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.InOrderWithParentPointerTest.traverse">
     <configuration default="false" name="InOrderTest.inOrderIterativeTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -690,6 +499,110 @@
       <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.traversal" />
       <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.traversal.InOrderTest" />
       <option name="METHOD_NAME" value="inOrderIterativeTraversalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinaryTreeNodeTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="treesandgraphs.binarytrees.node.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.node" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.node.BinaryTreeNodeTest" />
+      <option name="METHOD_NAME" value="getSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindKthNodeOfInorderTraversalTest.findKthNodeOfInorderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="treesandgraphs.binarytrees.traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.traversal" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.traversal.FindKthNodeOfInorderTraversalTest" />
+      <option name="METHOD_NAME" value="findKthNodeOfInorderTraversal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SuccessorInInorderTraversalTest.successor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="treesandgraphs.binarytrees.traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.traversal" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.traversal.SuccessorInInorderTraversalTest" />
+      <option name="METHOD_NAME" value="successor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InOrderWithParentPointerTest.traverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="treesandgraphs.binarytrees.traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Interview-Problems" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="treesandgraphs.binarytrees.traversal" />
+      <option name="MAIN_CLASS_NAME" value="treesandgraphs.binarytrees.traversal.InOrderWithParentPointerTest" />
+      <option name="METHOD_NAME" value="traverse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1118,19 +1031,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Programming-Interview-Problems" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorWithParentPointerTest.lcaTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RootToLeafPathSumTest.sumRootToLeaf" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FindPathWithRootToLeafSumTest.hasPathWithSum" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.InOrderTest.inOrderIterativeTraversalTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.InOrderTest.inOrderIterativeTraversalTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BinaryTreeNodeTest.getSize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FindKthNodeOfInorderTraversalTest.findKthNodeOfInorderTraversal" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SuccessorInInorderTraversalTest.successor" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InOrderWithParentPointerTest.traverse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InOrderTest.inOrderIterativeTraversalTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FindPathWithRootToLeafSumTest.hasPathWithSum" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RootToLeafPathSumTest.sumRootToLeaf" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LowestCommonAncestorWithParentPointerTest.lcaTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Programming-Interview-Problems" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InOrderWithParentPointerTest.traverse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SuccessorInInorderTraversalTest.successor" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FindKthNodeOfInorderTraversalTest.findKthNodeOfInorderTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryTreeNodeTest.getSize" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InOrderTest.inOrderIterativeTraversalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1160,34 +1073,31 @@
       <workItem from="1493342537221" duration="680000" />
       <workItem from="1494911704861" duration="11888000" />
       <workItem from="1495296370509" duration="22766000" />
-      <workItem from="1495509950413" duration="4476000" />
+      <workItem from="1495509950413" duration="12633000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="BinaryTreeNodeTest_getSize - 2017.05.23 at 23h 19m 00s.xml">
+      <configuration name="BinaryTreeNodeTest.getSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeNodeTest_getSize - 2017.05.23 at 23h 25m 29s.xml">
+      <configuration name="BinaryTreeNodeTest.getSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeNodeTest_getSize - 2017.05.23 at 23h 26m 15s.xml">
+      <configuration name="BinaryTreeNodeTest.getSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindKthNodeOfInorderTraversalTest_findKthNodeOfInorderTraversal - 2017.05.23 at 23h 33m 58s.xml">
+      <configuration name="FindKthNodeOfInorderTraversalTest.findKthNodeOfInorderTraversal" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FindPathWithRootToLeafSumTest_hasPathWithSum - 2017.05.23 at 00h 55m 17s.xml">
       <configuration name="FindPathWithRootToLeafSumTest.hasPathWithSum" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InOrderTest_inOrderIterativeTraversalTest - 2017.05.23 at 01h 17m 13s.xml">
       <configuration name="InOrderTest.inOrderIterativeTraversalTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 34m 02s.xml">
-      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 36m 27s.xml">
-      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 38m 21s.xml">
-      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LowestCommonAncestorWithParentPointerTest_lcaTest - 2017.05.22 at 23h 38m 41s.xml">
-      <configuration name="LowestCommonAncestorWithParentPointerTest.lcaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostOrder_testPostOrderIterativeTraversal - 2017.05.20 at 15h 46m 40s.xml">
-      <configuration name="PostOrder.testPostOrderIterativeTraversal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PreOrderTest_testInOrderRecursiveTraversal - 2017.05.20 at 15h 44m 48s.xml">
-      <configuration name="PreOrderTest.testInOrderRecursiveTraversal" configurationId="JUnit" />
+    <history-entry file="InOrderWithParentPointerTest_traverse - 2017.05.24 at 01h 41m 14s.xml">
+      <configuration name="InOrderWithParentPointerTest.traverse" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RootToLeafPathSumTest_sumRootToLeaf - 2017.05.22 at 23h 57m 32s.xml">
       <configuration name="RootToLeafPathSumTest.sumRootToLeaf" configurationId="JUnit" />
@@ -1195,12 +1105,15 @@
     <history-entry file="RootToLeafPathSumTest_sumRootToLeaf - 2017.05.22 at 23h 59m 21s.xml">
       <configuration name="RootToLeafPathSumTest.sumRootToLeaf" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SuccessorInInorderTraversalTest_successor - 2017.05.24 at 00h 11m 42s.xml">
+      <configuration name="SuccessorInInorderTraversalTest.successor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107269000" />
+    <option name="totallyTimeSpent" value="115426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-1479" width="1080" height="1893" extended-state="6" />
+    <frame x="2360" y="-671" width="1688" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1210,12 +1123,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983023" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19433647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36420396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24470136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15431349" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1258,55 +1171,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Adapter/Mp4Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Builder/Bottle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Decorator/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/DependencyInjection/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Factory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/FactoryMethod/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Obsever/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designpatterns/Principles/DependencyInversion/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1481,28 +1345,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1532,48 +1379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckHeightBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="65" selection-start-line="71" selection-start-column="65" selection-end-line="71" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1582,39 +1387,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/node/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1627,20 +1414,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/balance/CheckHeightBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckHeightBalancedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/balance/CheckSymmetricTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/lca/LowestCommonAncestorWithParentPointerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/node/BinaryTreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/FindPathWithRootToLeafSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="75">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/nodesum/RootToLeafPathSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/FindKthNodeOfInorderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PostOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/PreOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/SuccessorInInorderTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/TestBinaryTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="1575">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1650,6 +1543,34 @@
         <state relative-caret-position="405">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="32" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/treesandgraphs/binarytrees/traversal/InOrderWithParentPointerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

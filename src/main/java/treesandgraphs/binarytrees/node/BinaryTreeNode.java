@@ -17,4 +17,11 @@ public class BinaryTreeNode<T> {
     public BinaryTreeNode(T data) {
         this.data = data;
     }
+
+    public int getSize() {
+        int leftSize = left == null ? 0 : left.getSize();
+        int rightSize = right == null ? 0 : right.getSize();
+
+        return 1 + leftSize + rightSize;
+    }
 }

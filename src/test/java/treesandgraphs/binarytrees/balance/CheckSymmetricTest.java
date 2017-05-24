@@ -5,7 +5,7 @@ import org.junit.Test;
 import treesandgraphs.binarytrees.TestBinaryTrees;
 
 /**
- * Tests CheckSymmetric class.
+ * Tests {@link CheckSymmetric} class.
  *
  * Created by rezaamini on 5/20/17.
  */
